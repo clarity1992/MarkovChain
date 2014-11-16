@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D8822BBC1A196372008062CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8822BBB1A196372008062CC /* main.cpp */; };
+		D8822BC41A196638008062CC /* MarkovState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8822BC21A196638008062CC /* MarkovState.cpp */; };
+		D8822BC71A196644008062CC /* MarkovChain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8822BC51A196644008062CC /* MarkovChain.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		D8822BB81A196372008062CC /* MarkovChain */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MarkovChain; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8822BBB1A196372008062CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D8822BC21A196638008062CC /* MarkovState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MarkovState.cpp; sourceTree = "<group>"; };
+		D8822BC31A196638008062CC /* MarkovState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkovState.h; sourceTree = "<group>"; };
+		D8822BC51A196644008062CC /* MarkovChain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MarkovChain.cpp; sourceTree = "<group>"; };
+		D8822BC61A196644008062CC /* MarkovChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkovChain.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				D8822BBB1A196372008062CC /* main.cpp */,
+				D8822BC21A196638008062CC /* MarkovState.cpp */,
+				D8822BC31A196638008062CC /* MarkovState.h */,
+				D8822BC51A196644008062CC /* MarkovChain.cpp */,
+				D8822BC61A196644008062CC /* MarkovChain.h */,
 			);
 			path = MarkovChain;
 			sourceTree = "<group>";
@@ -117,7 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8822BC71A196644008062CC /* MarkovChain.cpp in Sources */,
 				D8822BBC1A196372008062CC /* main.cpp in Sources */,
+				D8822BC41A196638008062CC /* MarkovState.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
